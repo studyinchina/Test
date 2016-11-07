@@ -1322,12 +1322,15 @@ body {
     background-position: top left, top left;
     background-repeat: repeat-x, repeat;
     background-size: 100% 30em, auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13pt;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif; 
+    /*font-size: 13pt;*/
+    font-size: 12pt;
     /*color: #696969;*/
     color: #000000;
     font-weight: 300;
-    line-height: 2.25em;
+    /*line-height: 2.25em;*/
+    line-height: 1.75em;
 }
 
 body.is-loading * {
@@ -1350,7 +1353,7 @@ input, select, textarea {
 }
 
 a {
-    color: #000000;
+    color: #0090c5;
     text-decoration: none;
 }
 a:link {
@@ -1743,6 +1746,7 @@ button.big,
 
 ul.default {
     list-style: disc;
+    list-style-type:square;
     padding-left: 1em;
 }
 
@@ -1776,6 +1780,7 @@ ul.menu li:first-child {
 
 ol.default {
     list-style: decimal;
+    list-style-type:square;
     padding-left: 1.25em;
 }
 
